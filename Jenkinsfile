@@ -3,18 +3,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Define build steps here
+                // Placeholder build step
+                echo 'Building...'
             }
         }
         stage('Test') {
             steps {
-                // Define test steps here
+                // Placeholder test step
+                echo 'Testing...'
             }
         }
         stage('Deploy') {
             steps {
-                // Define deployment steps here
+                // Placeholder deploy step
+                echo 'Deploying...'
             }
         }
     }
 }
+
